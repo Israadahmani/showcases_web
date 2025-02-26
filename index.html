@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMC Showcase 🚀</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="stars"></div>  <!-- starsة-->
+    <header>
+        <h1>🚀 OMC Project Showcase 🌌</h1>
+        <div class="menu-icon" onclick="toggleClubInfo()">☰</div>
+    </header>
+
+    <div id="club-info" class="hidden">
+        <p>Welcome to Open Minds Club! Here, we showcase amazing projects created by our talented members. Explore and enjoy! 🌟</p>
+    </div>
+
+    <main>
+        <div class="big-box-container">
+            <div class="big-box" onclick="showMembers('games')">🎮 Games</div>
+            <div class="big-box" onclick="showMembers('profiles')">🪪 Profiles</div>
+        </div>
+
+        <div id="members-list" class="hidden"></div>
+        <div id="project-display" class="hidden"></div>
+    </main>
+
+    <footer>
+        <p>🌍 All rights reserved &copy; OMC 🚀</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
