@@ -220,8 +220,6 @@ html, body {
     text-align: center;
     transition: transform 0.3s ease, background 0.3s ease;
 }
-
-/* تأثير عند تمرير الماوس */
 #members-list div:hover {
     transform: scale(1.05);
     background: linear-gradient(90deg, #FFA500, #32CD32);
